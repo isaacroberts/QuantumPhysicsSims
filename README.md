@@ -11,3 +11,10 @@ This code shows off the 1, 2, and 3 dimensional cases for single particles in or
 
 Test MOV 
 https://github.com/isaacroberts/QuantumPhysicsSims/blob/main/ortho%201d%20bouncing.mov
+
+
+
+
+
+https://user-images.githubusercontent.com/26425166/185217882-80321175-87c9-4975-b94e-9a55109d8507.mov
+
