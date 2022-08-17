@@ -6,15 +6,11 @@ These simulations use the Fourier Transform to approximate the Schrodinger Equat
 
 This code shows off the 1, 2, and 3 dimensional cases for single particles in orbital wells, free particles, and particle-in-a-box.
 
-[![2D Box](https://github.com/isaacroberts/QuantumPhysicsSims/blob/main/examples/belt%20visual.mp4 "2D Box")](https://github.com/isaacroberts/QuantumPhysicsSims/blob/main/examples/belt%20visual.mp4 "2D Box")
-
-
-Test MOV 
-https://github.com/isaacroberts/QuantumPhysicsSims/blob/main/ortho%201d%20bouncing.mov
-
-
-
 
 
 https://user-images.githubusercontent.com/26425166/185217882-80321175-87c9-4975-b94e-9a55109d8507.mov
+
+
+3D Harmonics from a particle-in-a-box
+https://user-images.githubusercontent.com/26425166/185218768-ec065aa0-3f4c-403c-a41c-047f31a955b5.mp4
 
