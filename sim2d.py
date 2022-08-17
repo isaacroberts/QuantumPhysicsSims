@@ -47,7 +47,6 @@ class WaveFn():
 
         print ('dt =',self.dt)
 
-
         # specify range in x coordinate
         L = .5
         pos = (np.random.sample(2)-.5)
@@ -61,7 +60,7 @@ class WaveFn():
         x, y = np.meshgrid(xl, xl)
         size = L * self.N/2
 
-        d = psize * self.N/2 #* self.hbar
+        d = psize * self.N/2
 
         self.dk = math.tau/(self.N * self.dx)
         kl = self.dk  * np.linspace(-.5, .5, num=self.N) * self.N
@@ -96,7 +95,7 @@ class WaveFn():
         print ('V max', self.V_x.max())
 
         if Bound:
-            BS = 15 #36
+            BS = 15
             bound_val = 1e5
             self.V_x[ :BS  ] += np.linspace(bound_val, 0, num=BS)[:,None]
             self.V_x[ -BS: ] += np.linspace(0, bound_val, num=BS)[:,None]

@@ -1,5 +1,5 @@
 import numpy as np
-import cv2 as cv
+# import cv2 as cv
 
 import vispy as vp
 from vispy import app, gloo, scene, plot
@@ -222,7 +222,7 @@ class LiveGraphBase():
                 size*=2
                 fmt = 'MJPG'
             else:
-                # I don't actually know what this should be for windows
+                # I'm not sure what this should be for windows
                 fmt = 'DIVX'
             writer = cv2.VideoWriter(name, cv2.VideoWriter_fourcc(*fmt), fps, size)
 

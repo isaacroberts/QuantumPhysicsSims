@@ -69,7 +69,7 @@ class WaveFn():
         self.dx = xl[1]-xl[0]
 
         # specify initial momentum and quantities derived from it
-        d =  psize * self.N#*self.hbar #/ np.sqrt(3 * dp2)
+        d =  psize * self.N
         print ('initial width = ', d)
 
         self.dk = (math.tau) / (self.dx * self.N)
@@ -106,7 +106,6 @@ class WaveFn():
             self.V_x += 1/(1+r_term)
 
         if Bound:
-            # BS = self.B_S
             BS = 3
             bound_val = 1e3
             self.V_x[ :BS  ] += bound_val
@@ -278,7 +277,6 @@ freeCase = 'f' in arg
 bound = 'b' in arg
 wavef = WaveFn(freeCase, bound)
 
-# try:
 thread = threading.Thread(target=wavef.run_thread)
 thread.start()
 

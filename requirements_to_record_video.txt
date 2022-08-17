@@ -1,0 +1,9 @@
+numpy
+numba
+scipy
+threading
+vispy
+# For recording AVI
+cv2
+# For recording GIF
+imageio
