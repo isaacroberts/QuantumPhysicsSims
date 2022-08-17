@@ -6,7 +6,7 @@ These simulations use the Fourier Transform to approximate the Schrodinger Equat
 
 This code shows off the 1, 2, and 3 dimensional cases for single particles in orbital wells, free particles, and particle-in-a-box.
 
-
+![Gif](https://github.com/isaacroberts/QuantumPhysicsSims/blob/main/hi%20res%20bounce%201d.gif)
 
 https://user-images.githubusercontent.com/26425166/185217882-80321175-87c9-4975-b94e-9a55109d8507.mov
 
